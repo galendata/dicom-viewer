@@ -1,0 +1,33 @@
+{
+  "name": "ng-dicomviewer",
+  "version": "0.1.29",
+  "description": "Angular DICOM Viewer Component based on Cornerstore",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourctv/dicomViewerLib"
+  },
+  "author": "Julio Carneiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourctv/dicomViewerLib/issues"
+  },
+  "homepage": "https://github.com/fourctv/dicomViewerLib#readme",
+  "peerDependencies": {
+    "@angular/cdk": ">=7.0.0",
+    "@angular/common": ">=4.3.0 || >7.0.0",
+    "@angular/compiler": ">=4.3.0 || >7.0.0",
+    "@angular/core": ">=4.3.0 || >7.0.0",
+    "@angular/forms": ">=4.3.0 || >7.0.0",
+    "@angular/material": ">=7.0.0",
+    "@angular/platform-browser": ">=4.3.0 || >7.0.0",
+    "@angular/platform-browser-dynamic": ">=4.3.0 || >7.0.0",
+    "cornerstone-core": ">=2.3.0",
+    "cornerstone-math": ">=0.1.8",
+    "cornerstone-tools": ">=2.5.0",
+    "dicom-parser": ">=1.8.1",
+    "jquery": ">=3.2.1",
+    "rxjs": ">=7.0.0",
+    "zone.js": ">=0.8.5"
+
+  }
+}
